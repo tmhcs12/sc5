@@ -2,7 +2,7 @@ import paramiko
 import os
 
 # SSH configuration (ensure these are correct)
-ssh_host = 'mnz.domcloud.co'
+ssh_host = 'sgp.domcloud.co'
 ssh_port = 22
 ssh_user = 'prize-figure-fah'
 ssh_password = 'Chomulal123'
