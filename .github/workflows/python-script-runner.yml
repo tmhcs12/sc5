@@ -17,4 +17,4 @@ jobs:
 
       - name: Run Python script over SSH
         run: |
-          sshpass -p "Chomulal123" ssh -o StrictHostKeyChecking=no prize-figure-fah@sgp.domcloud.co 'cd public_html/scan && python sc5.py'
+          sshpass -p "Chomulal123" ssh -o StrictHostKeyChecking=no prize-figure-fah@sgp.domcloud.co 'cd public_html/scan && python sc71-73.py'
