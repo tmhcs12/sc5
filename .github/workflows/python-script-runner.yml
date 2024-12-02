@@ -1,12 +1,10 @@
 name: Run SSH Command and Script
 
 on:
- push:
+  push:
     branches:
-      - 'main'
-      
-  schedule:
-    - cron: '0 */6 * * *'  # This cron expression runs the job every 6 hours.
+      - main
+  workflow_dispatch:  # Allows manual triggering of the workflow via the GitHub API
   
 jobs:
   run_script:
