@@ -4,7 +4,7 @@ on:
  push:
     branches:
       - 'main'
-on:
+      
   schedule:
     - cron: '0 */6 * * *'  # This cron expression runs the job every 6 hours.
   
