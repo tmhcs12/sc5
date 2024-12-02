@@ -1,9 +1,8 @@
 name: Run SSH Command and Script
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 */6 * * *'  # This cron expression runs the job every 6 hours.
 
 jobs:
   run_script:
