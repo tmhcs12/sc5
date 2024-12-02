@@ -3,6 +3,7 @@ name: Run SSH Command and Script
 on:
   schedule:
     - cron: '0 */6 * * *'  # This cron expression runs the job every 6 hours.
+    workflow_dispatch:
 
 jobs:
   run_script:
